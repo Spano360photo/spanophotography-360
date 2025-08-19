@@ -44,6 +44,18 @@
     .service-box svg{height:55px;width:55px;fill:none;stroke:#00acc1;stroke-width:2;margin-bottom:18px;}
     .service-box h3{margin-bottom:10px;font-size:1.3em;color:#00796b;}
 
+    /* Stats Section */
+    .stats-grid{
+      display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:25px;margin-top:35px;max-width:800px;margin-left:auto;margin-right:auto;
+    }
+    .stat-box{
+      background:#f9f9f9;padding:28px;border-radius:14px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.08);
+    }
+    .stat-box h3{color:#00796b;font-size:2em;margin-bottom:8px;}
+    .stat-box p{margin:0;font-weight:600;}
+
     /* CTA Section */
     .cta-section{background:linear-gradient(135deg,#00796b,#009688);color:white;text-align:center;padding:70px 20px;}
     .cta-section h2{color:#fff;font-size:2.2em;margin-bottom:15px;}
@@ -86,11 +98,26 @@
     <a href="#services" class="cta-btn">📸 View Services</a>
   </div>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Us</h2>
-    <p><strong>Spano Photography</strong> helps businesses stand out with visually powerful 360° virtual tours, business photography, and Google Business Profile optimization. 
-    We partner with corporates, hotels, restaurants, and retail brands to enhance online presence and boost customer engagement.</p>
+  <!-- About Spano Photography -->
+  <section id="about-spano" style="background:#fff;">
+    <h2>About Spano Photography</h2>
+    <p>Since <strong>2007</strong>, we specialize in <strong>Google Business Profile Optimization</strong> and <strong>360° Virtual Tours</strong> to help businesses build trust and drive customer engagement. 
+    With <strong>2000+ projects</strong> across <strong>100+ cities</strong>, we deliver corporate-level expertise with a personal approach.</p>
+
+    <div class="stats-grid">
+      <div class="stat-box">
+        <h3>2000+</h3>
+        <p>360° Projects Delivered</p>
+      </div>
+      <div class="stat-box">
+        <h3>100+</h3>
+        <p>Cities Served</p>
+      </div>
+      <div class="stat-box">
+        <h3>7+</h3>
+        <p>States Covered</p>
+      </div>
+    </div>
   </section>
 
   <!-- Services Section -->
